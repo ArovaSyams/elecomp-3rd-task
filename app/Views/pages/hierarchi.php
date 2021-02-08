@@ -57,7 +57,6 @@
                 <?php endforeach; ?>
             </div>
         </div>
-        <hr>
     <?php endif; ?>
 <?php endforeach; ?>
 <?= $this->endSection() ?>
