@@ -24,7 +24,7 @@
                     <td><?= $t->nama_teman; ?></td>
                     <td><?= $t->no_hp_teman; ?></td>
                     <td><?= $t->pekerjaan_teman; ?></td>
-                    <td><?= $count->where("kenalan_dari", $t->nama_teman)->countAllResults(); ?></td>
+                    <td><?= $count->where("kenalan_dari", $t->id_teman)->countAllResults(); ?></td>
                     <td><a href="/pages/wahid/<?= $t->nama_teman; ?>" class="btn btn-success">Detail</a></td>
                 </tr>
         <?php

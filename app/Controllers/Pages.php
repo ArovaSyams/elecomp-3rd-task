@@ -237,13 +237,11 @@ class Pages extends BaseController
         return view('pages/eyeHierarki', $data);
     }
 
-    public function hierarchi() {
-        
-        
-
+    public function hierarchi()
+    {
         $data = [
             'title' => 'Coba hierarchi',
-            'teman' => $this->pagesModel->findAll(),
+            'teman' => $this->pagesModel->limit(1)->find(),
             'count' => $this->pagesModel
         ];
         return view('pages/hierarchi', $data);

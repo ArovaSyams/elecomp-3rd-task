@@ -38,7 +38,7 @@
             <select class="form-select <?= ($validation->hasError('kenalan_dari')) ? 'is-invalid' : ''; ?>" aria-label="Default select example" id="KenalanDari" name="kenalan_dari">
                 <option value="<?= old('kenalan_dari'); ?>">Pilih Kenalan Dari Teman !</option>
                 <?php foreach ($teman as $t) : ?>
-                    <option value="<?= $t['nama_teman']; ?>"><?= $t['nama_teman']; ?></option>
+                    <option value="<?= $t['id_teman']; ?>"><?= $t['nama_teman']; ?></option>
                 <?php endforeach; ?>
             </select>
             <div id="validationServerUsernameFeedback" class="invalid-feedback">

@@ -21,10 +21,11 @@
   border: 1px solid wheat;
   padding: 8px;
   margin: 7px 5px;
-  height: 45px;
+  height: 85px;
   flex-direction: column;
 }
 .baris-1 {
+  overflow-x: auto;
   display: flex;
   margin-top: 10px;
   margin-left: 10px;
@@ -33,15 +34,15 @@
   display: flex;
 }
 .garis-hr {
-    width: 10px;
-    height: 1px;
-    margin-top: 29px;
-    border: 1px black solid;
+  width: 10px;
+  height: 1px;
+  margin-top: 47px;
+  border: 1px black solid;
 }
 .garis-vr {
-    border: 1px black solid;
-    margin: 29px 0px 28px 0px;
-    width: 1px;
+  border: 1px black solid;
+  margin: 47px 0px 50px 0px;
+  width: 1px;
 }
 .col {
   margin: 0;
